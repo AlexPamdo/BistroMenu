@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  padding: 20px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.623)), /* Gradiente negro */ url(../img/Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.298);
+  }
+
+  header h1{
+    font-size: 4rem;
+    font-weight: bold
+  }
+
+.category-link{
+    background-color: none;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 200ms ease;
+}
+
+.category-link img{
+  filter: invert();
+margin-top: 10px;
+transition: all 200ms ease;
+}
+
+.category-link:hover{
+    background-color: white;
+}
+
+.category-link:hover img{
+    filter: none;
+}
+
+.category-link p{
+    transition: all 200ms ease;
+}
+
+.category-link:hover p{
+    color: black;
+}
+
+
+.populares-container{
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+    color: white;
+}
+
+.populares-container img{
+    border-radius: 10px;
+}
+
+.modal-body img{
+    border-radius: 10px;
+}
